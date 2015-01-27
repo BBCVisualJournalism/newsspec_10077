@@ -15,16 +15,16 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.config(['cloudfile_to_vocab', 'default'], {
-        options: {
-            output_directory:      'source/vocabs',
-            google_spreadsheet_id: worksheets.spreadsheetId,
-            username:              '<%= env.google.username %>',
-            password:              '<%= env.google.password %>',
-            worksheets:            worksheets.worksheetIds,
-            whitelisted_services:  ['arabic', 'azeri', 'bengali', 'brasil', 'burmese', 'chinese_simp', 'chinese_trad', 'cymru', 'english', 'french', 'gahuza', 'hausa', 'hindi', 'indonesian', 'kyrgyz', 'mundo', 'nepali', 'pashto', 'persian', 'portuguese', 'russian', 'sinhala', 'somali', 'swahili', 'tamil', 'turkish', 'ukrainian', 'urdu' , 'uzbek', 'vietnamese']
-        }
-    });
+    // grunt.config(['cloudfile_to_vocab', 'default'], {
+    //     options: {
+    //         output_directory:      'source/vocabs',
+    //         google_spreadsheet_id: worksheets.spreadsheetId,
+    //         username:              '<%= env.google.username %>',
+    //         password:              '<%= env.google.password %>',
+    //         worksheets:            worksheets.worksheetIds,
+    //         whitelisted_services:  ['arabic', 'azeri', 'bengali', 'brasil', 'burmese', 'chinese_simp', 'chinese_trad', 'cymru', 'english', 'french', 'gahuza', 'hausa', 'hindi', 'indonesian', 'kyrgyz', 'mundo', 'nepali', 'pashto', 'persian', 'portuguese', 'russian', 'sinhala', 'somali', 'swahili', 'tamil', 'turkish', 'ukrainian', 'urdu' , 'uzbek', 'vietnamese']
+    //     }
+    // });
 
-    grunt.registerTask('make_vocabs', ['check_spreadsheet_ids', 'cloudfile_to_vocab']);
+    grunt.registerTask('make_vocabs', ['check_spreadsheet_ids'/*, 'cloudfile_to_vocab'*/]);
 };

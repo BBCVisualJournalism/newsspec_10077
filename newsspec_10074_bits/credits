@@ -1,0 +1,40 @@
+<div class="bbc_shorthand_footer-credits">
+    <h3>Find out more</h3>
+    <p>Read Future of News: Beyond Broadcasting in full <a href="#.pdf">here</a>.</p>
+	<h3>Credits</h3>
+	<dl>
+		<dt>Author</dt>
+			<dd>James Harding</dd>
+		<dt>Additional contributors</dt>
+			<dd>Steve Herrmann</dd>
+            <dd>Tarik Kafala</dd>
+            <dd>Kelly Parkinson</dd>
+            <dd>Nick Sutton</dd>
+            <dd>Helen Thomas</dd>
+        <dt>Future of News project editor</dt>
+            <dd>Inga Thordar</dd>
+		<dt>Online producer</dt>
+            <dd>Paul Kerley</dd>
+        <dt>Graphics</dt>
+            <dd>Jean-Li Lee</dd>
+            <dd>James Offer</dd>
+            <dd>Alison Trowsdale</dd>
+        <dt>Data video</dt>
+            <dd>David Botti</dd>
+        <dt>Web development</dt>
+            <dd>Nzar Tofiq</dd>
+        <dt>Features Editor</dt>
+            <dd>Giles Wilson</dd>
+        <dt>Images</dt>
+            <dd>BBC</dd>
+            <dd>Getty Images/Thinkstock</dd>
+            <dd>Reuters</dd>
+    </dl>
+    <p>Images may not be reproduced without permission</p>
+    <dl>
+        <dt>Published</dt>
+            <dd>28 January 2015</dd>
+        <dt>Built with</dt>
+            <dd>Shorthand</dd>
+	</dl>
+</div>

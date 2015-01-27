@@ -6,6 +6,7 @@
   "year":           "2015",
   "imageWidths":    ["320", "640", "1024"],
   "services": {
-    "default": "english"
+    "default": "english",
+    "others" : ["*"]
   }
 }

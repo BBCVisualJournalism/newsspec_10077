@@ -17,7 +17,7 @@
 }
 
 .the_future_of_news-button {
-  font-size: 2.5em;
+  font-size: 1.8em;
   background: #CD0000;
   border: none;
   color: #FFF;
@@ -38,16 +38,13 @@
     font-size: 3em;
   }
   .the_future_of_news-button {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
 @media (max-width: 650px) {
   .the_future_of_news-core_content h2 {
     font-size: 2.5em;
-  }
-  .the_future_of_news-button {
-    font-size: 2em;
   }
 }
 
@@ -56,6 +53,6 @@
     font-size: 2em;
   }
   .the_future_of_news-button {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
